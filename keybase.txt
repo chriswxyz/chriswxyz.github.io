@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/chriswxyz
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://chrisw.xyz
+  * I am chriswxyz (https://keybase.io/chriswxyz) on keybase.
+  * I have a public key with fingerprint 4F98 7417 075F 89BF ED67  B3D0 F04F 3E2B 6DEB D5EE
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "010100f95290fdc986c0032a519e0f47ea8f012df8a6487ab5833e002ada120494ab0a",
+            "fingerprint": "4f987417075f89bfed67b3d0f04f3e2b6debd5ee",
+            "host": "keybase.io",
+            "key_id": "f04f3e2b6debd5ee",
+            "kid": "010100f95290fdc986c0032a519e0f47ea8f012df8a6487ab5833e002ada120494ab0a",
+            "uid": "b1af58c9ace5087b799b981fc4cf1b19",
+            "username": "chriswxyz"
+        },
+        "service": {
+            "hostname": "chrisw.xyz",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1473907322,
+    "expire_in": 157680000,
+    "prev": "a8f5f532ef573eb2e0e5a4600e981dec478cb5dd58e9af245ff83845e887ca60",
+    "seqno": 8,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.56
+Comment: https://keybase.io/crypto
+
+yMIhAnicrZJJaBRBFIY7Rs3igoiKmIv0QS+jVC81XT0h7kZEkURcCAaGqu5XSZs4
+0+nuRCdxxCXigoqiqBhww4uoE1c8GCSjgmtiNJ4SNYrJyRxcUFA0WB30IHi06lDU
+43t//f+j7o3LlQpzKr7OKV3fv3pdzuPs0XppbU9hY5PMknZKjjXJNTB8QK0NfhCv
+cWw5JiNFbMRNrJqI25ZJohZCmkqxYgLiugGUcKSoNic0qhODMkw0DRBSqU0VFemm
+ThmickTmTqIKPNdzEoGQ1blJDF0xkIE5MRkHO2owzUYc6VwDlUVtYDYGEI3VST/s
+EOYY9WG2kxQ1cYkP2/sH/5991w/LMYVyTCyTWoARMZhhmswkCrd0iytMMUPQBy9B
+N4CgrWrP8TduSjXK6Ygsyg2OBeFkwyh/IbNDJiK7XjJIWslaUa8OAtePhX1Byg3B
+jcDivyXizEnYYoyiowE830km5JgiSCtwQk1FNzQTGZqqRmTY5DoexJ2QwEaUILHC
+d6BBSIromGNNBY4NDZgKCDDVowiBiGSDpRvEYti2MQGTclXHnBON6BgIMSwaRXIY
+qi6RlGNE2KRVQtJ3qhI0qPdATt9prxwp5RRKo0eNCL+XVFgw4c+ny2d5Q9OXPjqy
+S+q2pPZVq4yx7193Zi41LrzVVJ4z403u4bwPEfvn8j3b3OcPt+5r//GC9O+oP188
+42P33KHc7P6BrpdLYy2lu+d9DDacLXZXTzl97vu0JUVTC+rmVngx89TAxWzpaPfn
+wXkt1rP8lWXfDvVe7/u8qGyyNSiNmH9tzClZXdjqR1qelMwZevUu1d6IsytmDlSS
+ByXuifKdd5ubF/cqPl1wIj3+7Zan9zPq7o7+WX33m4/3pdbzDN57/UDFMbgy8Yby
+5fvt7fGT8cG27kNrWm90LfOzyzs3j/Jbt7SdyZ9ylXb0VT37lM0U7SyRatJtXa2P
+F19OgzKpq+jC+D09N8f9AhNzRGE=
+=mgwA
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/chriswxyz
+
+==================================================================
