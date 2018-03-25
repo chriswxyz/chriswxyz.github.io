@@ -2,61 +2,235 @@
 
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="https://unpkg.com/tachyons@4.9.1/css/tachyons.min.css" />
-    <style>
-        .mw50{
-            max-width: 50rem;
+    <link href="https://unpkg.com/tachyons@4.9.1/css/tachyons.min.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/octicons/4.4.0/font/octicons.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" />
+    <style media="screen">
+        body {
+            font-family: 'Roboto', sans-serif;
+            color: #2d3436;
+            font-size: 16pt;
+        }
+
+        header {
+            background-color: #2d3436;
+            color: white;
+
+            padding-top: 0.5rem;
+            padding-bottom: 0.5rem;
+
+            padding-left: 5rem;
+            padding-right: 5rem;
+        }
+
+        main {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+
+            padding-left: 5rem;
+            padding-right: 5rem;
+            padding-bottom: 4rem;
+        }
+
+        .sidebar-section {
+            -webkit-box-ordinal-group: 2;
+            -ms-flex-order: 1;
+            order: 1;
+
+            max-width: 30rem;
+        }
+
+        .content-section {
+            -webkit-box-ordinal-group: 1;
+            -ms-flex-order: 0;
+            order: 0;
+
+            margin-right: 5rem;
+        }
+
+        .octicon {
+            font-size: 24px !important;
+            margin-right: 0.5rem;
+        }
+
+        main h2 {
+            border-bottom: 2px solid #636e72;
+            padding-bottom: 0.55rem;
+            margin-top: 3rem;
+        }
+
+        main h3{
+            margin-bottom: 0.5rem;
+        }
+
+        .contact-item+.contact-item {
+            margin-top: 0.5rem;
+        }
+    </style>
+    <style media="print">
+        * {
+            padding: 0;
+        }
+
+        a,
+        a:link,
+        a:visited,
+        a:hover,
+        a:active {
+            color: inherit;
+            text-decoration: inherit;
+            font-weight: inherit;
+        }
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            color: #2d3436;
+            padding: 0;
+            font-size: 12pt;
+        }
+
+        header h1 {
+            padding: 0;
+            margin: 0;
+        }
+
+        header h2 {
+            padding: 0;
+            margin: 0;
+        }
+
+        main {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+        }
+
+        main h2 {
+            border-bottom: 2px solid #636e72;
+            padding: 0 0 0.25rem 0;
+
+            margin-top: 1rem;
+            margin-bottom: 0.5rem;
+        }
+
+        main h3 {
+            padding: 0;
+
+            margin-top: 1rem;
+            margin-bottom: 0.25rem;
+        }
+
+        main h4 {
+            padding: 0;
+
+            margin-top: 0.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .sidebar-section {
+            -webkit-box-ordinal-group: 2;
+            -ms-flex-order: 1;
+            order: 1;
+
+            max-width: 35rem;
+        }
+
+        .content-section {
+            -webkit-box-ordinal-group: 1;
+            -ms-flex-order: 0;
+            order: 0;
+
+            margin-right: 1rem;
+        }
+
+        .contact-item+.contact-item {
+            margin-top: 0.25rem;
+        }
+
+        .octicon {
+            font-size: 24px !important;
+            margin-right: 0.5rem;
         }
     </style>
     <title>Chris Williams, Software Engineer</title>
 </head>
 
-<body class="ph5 pb5 mw50 sans-serif">
-    <h1>Chris Williams</h1>
-    <h2>Software Engineer</h2>
-    <div><a href="mailto:chriswxyz@protonmail.com">chriswxyz@protonmail.com</a></div>
-    <div><a href="https://linkedin.com/in/cwilliams91">linkedin.com/in/cwilliams91</a></div>
-    <div><a href="https://github.com/chriswxyz">github.com/chriswxyz</a></div>
-    <div>2247A N Summit Ave</div>
-    <div>Milwaukee WI 53202</div>
-    <div><a href="tel:920-268-6853">920-268-6853</a></div>
+<body>
+    <header>
+        <h1>Chris Williams</h1>
+        <h2>Software Engineer</h2>
+    </header>
+    <main>
+        <section class="sidebar-section">
+            <div class="nowrap">
+                <h2>
+                    <span class="octicon octicon-megaphone"></span>Contact
+                </h2>
+                <div class="contact-item">
+                    <a href="mailto:chriswxyz@protonmail.com">chriswxyz@protonmail.com</a>
+                </div>
+                <div class="contact-item">
+                    <a href="https://linkedin.com/in/cwilliams91">linkedin.com/in/cwilliams91</a>
+                </div>
+                <div class="contact-item">
+                    <a href="https://github.com/chriswxyz">github.com/chriswxyz</a>
+                </div>
+                <div class="contact-item">
+                    <div>2247A N Summit Ave</div>
+                    <div>Milwaukee WI 53202</div>
+                </div>
+                <div class="contact-item">
+                    <a href="tel:920-268-6853">920-268-6853</a>
+                </div>
+            </div>
+            <div>
+                <h2>Keywords</h2>
+                React, Redux, TypeScript, JavaScript, C#, Functional, .NET, WebAPI, Teaching, Testing, Agile, Kanban, SQL, WPF, UX, Teaching,
+                CI, CD, TFS, VSTS, Git
+            </div>
+            <div>
+                <h2>
+                    <span class="octicon octicon-mortar-board"></span>Education</h2>
+                <h3>B.S., Computer Science, Software Engineering Emphasis</h3>
+                <div>University of Wisconsin - Oshkosh</div>
+                <div>2010 - 2014</div>
+            </div>
+        </section>
+        <section class="content-section">
+            <div>
+                <h2>
+                    <span class="octicon octicon-heart"></span>Objective</h2>
+                To better the state of humanity through software, making people's lives easier and happier.
+            </div>
+            <h2>
+                <span class="octicon octicon-git-pull-request"></span>Experience</h2>
+            <div>
+                <h3>Software Engineer @ Red Arrow Labs</h3> Sep 2014 - Oct 2017
+                <h4>Resident Front End Dev</h4>
+                Primary front end developer on two enterprise products, using React, Flux, Redux, and TypeScript
+                <h4>Full Stack Dev</h4>
+                Provided backend business logic services for those products using C# WebAPI and SQL
+                <h4>Beyond Code - Health Care Domain</h4>
+                Understood the intricacies of specialty pharma, enrollment through fulfillment, by working first hand with pharmacists and
+                care teams while developing
+                <h4>Lunch N' Learn Leader</h4>
+                Gave the most lunch time presentations of any employee, on topics including functional programming, testing, front end, and
+                accessibility
+            </div>
+            <div>
+                <h3>Web Applications Developer @ Oshkosh Corporation</h3> Mar 2012 - Aug 2014
+                <h4>SharePoint Solutions</h4>
+                Implemented a range of SharePoint apps from small document sharing hubs to fully custom sites with specific business logic
+                <h4>Testing and Documentation</h4>
+                Introduced automated testing to custom solutions, and a process for documenting their design
+                <h4>Beyond Code - Engineering and Manufacturing Domain</h4>
+                Met with a variety of teams from CAD engineers to plant managers, learning their workflow and designing apps around them
+            </div>
 
-    <h2>Objective</h2>
-    Make more people's lives easier and happier, through software.
 
-    <h2>Experience</h2>
-    <div>
-        <h3> Software Engineer @ Red Arrow Labs </h3> Sep 2014 - Oct 2017
-        <h4> Resident Front End Dev </h4>
-        Primary front end developer on two enterprise products, using React, Flux, Redux, and TypeScript
-        <h4> Full Stack Dev </h4>
-        Provided backend services for those products using C# WebAPI and SQL
-        <h4> Beyond Code - Health Care Domain </h4>
-        Understood the intricacies of specialty pharma, enrollment through fulfillment, by working first hand with pharmacists and
-        care teams while developing
-        <h4> Lunch N' Learn Leader </h4>
-        Gave the most lunch time lectures to coworkers, on topics including functional programming, testing, front end, and accessibility
-    </div>
-    <div>
-        <h3> Web Applications Developer @ Oshkosh Corporation </h3> Mar 2012 - Aug 2014
-        <h4> SharePoint Solutions </h4>
-        Implemented a range of SharePoint apps from small document sharing hubs to fully custom sites with specific business logic
-        <h4> Testing and Documentation </h4>
-        Introduced automated testing to custom solutions, and a process for documenting their design
-        <h4>Beyond Code - Engineering and Manufacturing Domain </h4>
-        Met with a variety of teams from CAD engineers to plant managers, learning their workflow and designing apps around them
-    </div>
-    <div>
-        <h2>Keywords</h2>
-        React, Redux, TypeScript, JavaScript, C#, Functional, .NET, WebAPI, Teaching, Testing, Agile, Kanban, SQL, WPF, UX, Teaching,
-        CI, CD, TFS, VSTS, Git
-    </div>
-
-    <div>
-        <h2>Education</h2>
-        <h3> B.S., Computer Science, Software Engineering Emphasis</h3>
-        University of Wisconsin - Oshkosh, 2010 - 2014
-    </div>
+        </section>
+    </main>
 </body>
 
 </html>
