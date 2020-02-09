@@ -9,12 +9,18 @@
         .nowrap {
             white-space: nowrap;
         }
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
     </style>
     <style media="screen">
         body {
             font-family: 'Roboto', sans-serif;
             color: #2d3436;
             font-size: 16pt;
+            line-height: 2.3rem;
         }
 
         header {
@@ -23,7 +29,7 @@
             color: white;
 
             padding-top: 0.5rem;
-            padding-bottom: 0.5rem;
+            padding-bottom: 1rem;
 
             padding-left: 5rem;
             padding-right: 5rem;
@@ -55,6 +61,40 @@
             margin-right: 5rem;
         }
 
+        .objective-section p {
+            margin-top: 1rem;
+        }
+
+        .experience-section {
+            margin-top: 2rem;
+        }
+
+        .experience-section h4 {
+            margin-top: 1rem;
+        }
+
+        .experience {
+            border-left: 0.5rem solid;
+            padding-left: 1rem;
+            padding-top: 0.65rem;
+            padding-bottom: 0.5rem;
+        }
+
+        .direct-supply {
+            border-color: #007BC3;
+            background-color: #DAF3FF;
+        }
+
+        .red-arrow {
+            border-color: #BA0C2F;
+            background-color: #FFE4E0;
+        }
+
+        .oshkosh {
+            border-color: #EA7600;
+            background-color: #FFE9D0;
+        }
+
         .octicon {
             font-size: 24px !important;
             margin-right: 0.5rem;
@@ -64,14 +104,24 @@
             border-bottom: 2px solid #636e72;
             padding-bottom: 0.55rem;
             margin-top: 3rem;
+            margin-bottom: 1rem;
         }
 
         main h3 {
             margin-bottom: 0.5rem;
         }
 
-        .contact-item+.contact-item {
+        .contact-item + .contact-item {
             margin-top: 0.5rem;
+        }
+
+        ul {
+            margin: 0;
+            padding: 0;
+        }
+
+        li {
+            margin-left: 1.6rem;
         }
     </style>
     <style media="print">
@@ -164,13 +214,13 @@
             margin-right: 0.5rem;
         }
     </style>
-    <title>Chris Williams, Software Engineer</title>
+    <title>Chris Williams, UX &amp; Software Engineer</title>
 </head>
 
 <body>
     <header>
         <h1>Chris Williams</h1>
-        <h2>Software Engineer</h2>
+        <h2>Software &amp; UX Engineer</h2>
     </header>
     <main>
         <section class="sidebar-section">
@@ -199,8 +249,8 @@
                 <h2>
                     <span class="octicon octicon-star"></span>Keywords
                 </h2>
-                React, Redux, TypeScript, JavaScript, C#, Functional, .NET, WebAPI, Teaching, Testing, Agile, Kanban, SQL, WPF, UX, Teaching,
-                CI, CD, TFS, VSTS, Git
+                React, Redux, TypeScript, JavaScript, C#, Functional, .NET, WebAPI, Testing, Agile, Kanban,
+                SQL, WPF, UX, Teaching, PostgreSQL, CI, CD, TFS, VSTS, Git, Gitlab
             </div>
             <div>
                 <h2>
@@ -211,36 +261,87 @@
             </div>
         </section>
         <section class="content-section">
-            <div>
-                <h2>
-                    <span class="octicon octicon-heart"></span>Objective</h2>
-                To use my engineering skills for good, and help workers do more with less.
+            <div class="objective-section">
+                <h2><span class="octicon octicon-heart"></span>Objective</h2>
+                <p>To use my engineering skills for good, and to help workers do more with less.</p>
             </div>
             <h2>
-                <span class="octicon octicon-git-pull-request"></span>Experience</h2>
-            <div>
-                <h3>Software Engineer @ Red Arrow Labs</h3> Sep 2014 - Oct 2017
-                <h4>Resident Front End Dev</h4>
-                Primary front end developer on two enterprise products, using React, Flux, Redux, and TypeScript
+                <span class="octicon octicon-git-pull-request"></span>Experience
+            </h2>
+            <div class="experience-section">
+                <div class="experience direct-supply">
+                    <h3>Senior Software Engineer @ Direct Supply</h3>
+                    Aug 2018 - Present
+                </div>
                 <h4>Full Stack Dev</h4>
-                Provided backend business logic services for those products using C# WebAPI and SQL
-                <h4>Beyond Code - Health Care Domain</h4>
-                Understood the intricacies of specialty pharma, enrollment through fulfillment, by working first hand with pharmacists and
-                care teams while developing
-                <h4>Lunch N' Learn Leader</h4>
-                Gave the most lunch time presentations of any employee, on topics including functional programming, testing, front end, and
-                accessibility
+                <ul>
+                    <li>Collaborated with users to understand their day-to-day jobs, build out design mocks, and create
+                        clickable prototypes</li>
+                    <li>Primary front end developer on our Order Guide Management (OGM) product, using React, Redux, and
+                        TypeScript</li>
+                    <li>Provided back end business logic services using C# and PostgreSQL</li>
+                </ul>
+                <h4>Architecture Advocate and Dev Lead</h4>
+                <ul>
+                    <li>Planned and implemented team standards for separating rendering, I/O, and state management on
+                        the front end</li>
+                    <li>Planned and implemented team standards for API design, component reuse, and calling DB
+                        procedures on the back end</li>
+                    <li>Took on the responsibility of <strong>Dev Lead</strong> for OGM, organizing and focusing the
+                        team
+                        on our deliverables</li>
+                </ul>
+                <h4>Beyond Code - Senior Living Purchasing</h4>
+                <ul>
+                    <li>Experienced the complexities of ordering optimization in the senior living space through
+                        continuous, direct collaboration with purchasing analysts.</li>
+                </ul>
             </div>
-            <div>
-                <h3>Web Applications Developer @ Oshkosh Corporation</h3> Mar 2012 - Aug 2014
+            <div class="experience-section">
+                <div class="experience red-arrow">
+                    <h3>Software Engineer @ Red Arrow Labs</h3>
+                    Sep 2014 - Oct 2017
+                </div>
+                <h4>Full Stack Dev</h4>
+                <ul>
+                    <li>Primary front end developer on two enterprise products, using React, Flux, Redux, and
+                        TypeScript.</li>
+                    <li>Provided back end business logic services for those products using C# and MS SQL</li>
+                </ul>
+                <h4>Beyond Code - Health Care Domain</h4>
+                <ul>
+                    <li>Understood the intricacies of specialty pharma, enrollment through fulfillment, by working first
+                        hand
+                        with pharmacists and care teams while developing</li>
+                </ul>
+                <h4>Lunch N' Learn Leader</h4>
+                <ul>
+                    <li>Gave the most lunch time presentations of any employee, on topics including functional
+                        programming, testing, front end, and accessibility
+                    </li>
+                </ul>
+            </div>
+            <div class="experience-section">
+                <div class="experience oshkosh">
+                    <h3>Web Applications Developer @ Oshkosh Corporation</h3>
+                    Mar 2012 - Aug 2014
+                </div>
                 <h4>SharePoint Solutions</h4>
-                Implemented a range of SharePoint apps from small document sharing hubs to fully custom sites with specific business logic,
-                using C# and JavaScript
+                <ul>
+                    <li>Implemented a range of SharePoint apps from small document sharing hubs to fully custom sites
+                        with specific business logic, using C# and JavaScript</li>
+                </ul>
                 <h4>Testing and Documentation</h4>
-                Introduced automated testing to custom solutions, and a process for documenting their design
+                <ul>
+                    <li>Introduced automated testing to custom solutions, and a process for documenting their design
+                    </li>
+                </ul>
                 <h4>Beyond Code - Engineering and Manufacturing Domain</h4>
-                Met with a variety of teams from CAD engineers to plant managers, learning their workflow and designing apps around their
-                processes
+                <ul>
+                    <li>Met with a variety of teams from CAD engineers to plant managers, learning their workflow and
+                        designing
+                        apps around their processes</li>
+                </ul>
             </div>
         </section>
     </main>
